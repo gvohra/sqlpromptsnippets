@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>atet</Title>
+      <Shortcut>atet</Shortcut>
+      <Description>Enable trigger.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[ALTER TABLE $CURSOR$ ENABLE TRIGGER ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

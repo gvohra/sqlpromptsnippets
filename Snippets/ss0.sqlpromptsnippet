@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ss0</Title>
+      <Shortcut>ss0</Shortcut>
+      <Description>SELECT TOP 0 * FROM (Gaurav Vohra contribution)</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[SELECT TOP 0 * FROM ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

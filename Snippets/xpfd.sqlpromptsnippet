@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>xpfd</Title>
+      <Shortcut>xpfd</Shortcut>
+      <Description>Retrieve free space on all fixed drives. Contributed by Alan Wood, Revelator IT Ltd, Edinburgh, Scotland.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[EXEC master..xp_fixeddrives]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

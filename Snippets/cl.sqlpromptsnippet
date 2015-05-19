@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cl</Title>
+      <Shortcut>cl</Shortcut>
+      <Description>Create a new SQL Server login.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[CREATE LOGIN $CURSOR$ /* Add WITH or FROM (below) as appropriate */
+--WITH
+--  PASSWORD = 'password' /* HASHED */ /* MUST CHANGE */
+--  SID = sid
+--  DEFAULT_DATABASE = database
+--  DEFAULT_LANGUAGE = language
+--  CHECK_EXPIRATION = ON | OFF
+--  CHECK_POLICY = ON | OFF
+--  CREDENTIAL = credential_name
+--FROM
+--  WINDOWS
+--    WITH
+--      DEFAULT_DATABASE = database
+--      DEFAULT_LANGUAGE = language
+--  CERTIFICATE certificate_name
+--  ASYMMETRIC KEY key_name
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

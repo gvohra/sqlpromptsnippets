@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>foj</Title>
+      <Shortcut>foj</Shortcut>
+      <Description>FULL OUTER JOIN fragment.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[FULL OUTER JOIN ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

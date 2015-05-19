@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cdb</Title>
+      <Shortcut>cdb</Shortcut>
+      <Description>CREATE DATABASE statement.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[CREATE DATABASE $CURSOR$ --database_name
+ON
+PRIMARY ( -- or use FILEGROUP filegroup_name
+  NAME = logical_file_name,
+  FILENAME = 'os_file_name',
+  SIZE = size,
+  MAXSIZE = max_size|UNLIMITED,
+  FILEGROWTH = growth_increment
+) --, and repeat as required
+LOG ON
+(
+  NAME = logical_file_name,
+  FILENAME = 'os_file_name',
+  SIZE = size,
+  MAXSIZE = max_size|UNLIMITED,
+  FILEGROWTH = growth_increment
+) --, and repeat as required
+--COLLATE collation_name
+--WITH
+--  DB_CHAINING ON/OFF
+--  TRUSTWORTHY ON/OFF
+--FOR LOAD
+--FOR ATTACH
+--WITH
+--  ENABLE_BROKER
+--  NEW_BROKER
+--  ERROR_BROKER_CONVERSATIONS
+--FOR ATTACH_REBUILD_LOG
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

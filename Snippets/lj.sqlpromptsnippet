@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>lj</Title>
+      <Shortcut>lj</Shortcut>
+      <Description>LEFT JOIN (Gaurav Vohra)</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[LEFT JOIN ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

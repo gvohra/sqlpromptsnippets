@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ateta</Title>
+      <Shortcut>ateta</Shortcut>
+      <Description>Enable all triggers on table.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[ALTER TABLE $CURSOR$ ENABLE TRIGGER ALL
+GO]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

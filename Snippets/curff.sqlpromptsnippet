@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>curff</Title>
+      <Shortcut>curff</Shortcut>
+      <Description>Boilerplate code for fast-forward read-only cursor. Contributed by muellerbill.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[DECLARE /* variables */
+
+DECLARE $CURSOR$ CURSOR FAST_FORWARD READ_ONLY FOR
+/* SELECT statement */
+
+OPEN /* cursor name */
+
+FETCH NEXT FROM /* cursor name */ INTO /* variables */
+
+WHILE @@FETCH_STATUS = 0
+BEGIN
+
+/* cursor logic */
+
+FETCH NEXT FROM /* cursor name */ INTO /* variables */
+
+END
+
+CLOSE /* cursor name */
+DEALLOCATE /* cursor name */]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

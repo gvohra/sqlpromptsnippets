@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cv</Title>
+      <Shortcut>cv</Shortcut>
+      <Description>Create a view.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[CREATE VIEW $CURSOR$
+--WITH ENCRYPTION, SCHEMABINDING, VIEW_METADATA
+AS
+	SELECT /* query specification */
+-- WITH CHECK OPTION
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

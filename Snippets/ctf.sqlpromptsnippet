@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ctf</Title>
+      <Shortcut>ctf</Shortcut>
+      <Description>Create multi-statement table-valued function.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[CREATE FUNCTION $CURSOR$--(owner_name.)function_name
+  --(@parameter_name AS scalar_data_type ( = default_value ), ...)
+RETURNS @return_variable TABLE --table type definition
+--WITH ENCRYPTION|SCHEMABINDING, ...
+AS
+BEGIN
+  -- Function body here
+  RETURN
+END
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

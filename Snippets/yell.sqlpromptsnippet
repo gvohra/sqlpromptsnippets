@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>yell</Title>
+      <Shortcut>yell</Shortcut>
+      <Description>Vent your frustration.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[/*
+
+  AAAA   AAAA   AAAA   AAAA  RRRRR   GGGG  HH  HH  ######
+ AA  AA AA  AA AA  AA AA  AA RR  RR GG  GG HH  HH  ######
+ AA  AA AA  AA AA  AA AA  AA RR  RR GG     HH  HH   ####
+ AAAAAA AAAAAA AAAAAA AAAAAA RRRRR  GG GGG HHHHHH    ##
+ AA  AA AA  AA AA  AA AA  AA RR  RR GG  GG HH  HH
+ AA  AA AA  AA AA  AA AA  AA RR  RR  GGG G HH  HH    ##
+
+*/]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

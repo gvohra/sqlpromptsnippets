@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cdbsnap</Title>
+      <Shortcut>cdbsnap</Shortcut>
+      <Description>Create a database snapshot.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[CREATE DATABASE $CURSOR$ 
+ON 
+    (
+    NAME = /* logical_file_name */,
+    FILENAME = /* 'os_file_name' */
+    ) [ ,...n ] 
+AS SNAPSHOT OF /* source_database_name */
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

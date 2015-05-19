@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>citf</Title>
+      <Shortcut>citf</Shortcut>
+      <Description>Create inline table-valued function.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[CREATE FUNCTION $CURSOR$--(owner_name.)function_name
+  --(@parameter_name AS scalar_data_type ( = default_value ), ...)
+RETURNS TABLE
+--WITH ENCRYPTION|SCHEMABINDING, ...
+AS
+RETURN ( SELECT /* query specification */ )
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>sqi</Title>
+      <Shortcut>sqi</Shortcut>
+      <Description>Change the current QUOTED_IDENTIFIER setting.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[SET QUOTED_IDENTIFIER ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

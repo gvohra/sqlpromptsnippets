@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>mro</Title>
+      <Shortcut>mro</Shortcut>
+      <Description>Retrieves information about 20 most recently created objects from database. Contributed by Jerry J. Deroo, The OSI Group, Newmarket, Ontario, Canada.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[SELECT TOP 20 [name], [type], crdate
+FROM sysobjects
+ORDER BY crdate DESC]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

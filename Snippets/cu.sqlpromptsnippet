@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cu</Title>
+      <Shortcut>cu</Shortcut>
+      <Description>Create a database user.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[CREATE USER $CURSOR$
+FOR /* FROM */ LOGIN /* login_name */
+--	CERTIFICATE certificate_name
+--	ASYMMETRIC KEY key_name
+--	WITHOUT LOGIN
+--	WITH DEFAULT_SCHEMA = schema_name
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

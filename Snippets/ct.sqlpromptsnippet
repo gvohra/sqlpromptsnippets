@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ct</Title>
+      <Shortcut>ct</Shortcut>
+      <Description>Create a table.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[CREATE TABLE $CURSOR$
+(
+    -- column_name data_type,...
+)]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>atdc</Title>
+      <Shortcut>atdc</Shortcut>
+      <Description>Drop constraint.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[ALTER TABLE $CURSOR$ DROP CONSTRAINT ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>dv</Title>
+      <Shortcut>dv</Shortcut>
+      <Description>Drop a view.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[DROP VIEW ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

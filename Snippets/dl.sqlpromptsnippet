@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>dl</Title>
+      <Shortcut>dl</Shortcut>
+      <Description>Drop a login.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[DROP LOGIN ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

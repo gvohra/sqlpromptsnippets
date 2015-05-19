@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>sxa</Title>
+      <Shortcut>sxa</Shortcut>
+      <Description>Change the current XACT_ABORT setting.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[SET XACT_ABORT ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

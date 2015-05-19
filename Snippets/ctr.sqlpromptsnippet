@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ctr</Title>
+      <Shortcut>ctr</Shortcut>
+      <Description>Commit transaction. Contributed by Dinesh Asanka, Colombo, Sri Lanka.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[COMMIT TRANSACTION]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

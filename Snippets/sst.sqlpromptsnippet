@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>sst</Title>
+      <Shortcut>sst</Shortcut>
+      <Description>SELECT TOP 1000 * FROM (Gaurav Vohra contribution)</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[SELECT TOP 1000 * FROM ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

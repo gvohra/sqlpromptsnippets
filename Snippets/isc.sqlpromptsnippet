@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>isc</Title>
+      <Shortcut>isc</Shortcut>
+      <Description>Column Information Grabber (Gaurav Vohra contribution)</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[isc 	SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME LIKE '%$CURSOR$%' ORDER BY TABLE_SCHEMA, TABLE_NAME ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

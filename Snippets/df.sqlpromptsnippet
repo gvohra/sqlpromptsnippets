@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>df</Title>
+      <Shortcut>df</Shortcut>
+      <Description>DELETE FROM fragment.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[DELETE FROM ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

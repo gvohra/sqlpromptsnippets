@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cuci</Title>
+      <Shortcut>cuci</Shortcut>
+      <Description>Create unique clustered index.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[CREATE UNIQUE CLUSTERED INDEX $CURSOR$
+ON -- table | view ( column1 [ ASC | DESC ], ..., columnN ( ASC | DESC ] )
+--WITH PAD_INDEX
+--    | FILLFACTOR = fillfactor
+--    | IGNORE_DUP_KEY
+--    | DROP_EXISTING
+--    | STATISTICS_NORECOMPUTE
+--    | SORT_IN_TEMPDB, .. as required
+-- ON filegroup
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

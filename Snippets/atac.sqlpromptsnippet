@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>atac</Title>
+      <Shortcut>atac</Shortcut>
+      <Description>Modify column.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[ALTER TABLE $CURSOR$ ALTER COLUMN ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

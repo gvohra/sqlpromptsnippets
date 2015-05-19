@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>csf</Title>
+      <Shortcut>csf</Shortcut>
+      <Description>Create scalar function.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[CREATE FUNCTION $CURSOR$--(owner_name.)function_name
+  --(@parameter_name AS scalar_data_type ( = default_value ), ...)
+RETURNS --scalar_data_type
+--WITH ENCRYPTION|SCHEMABINDING, ...
+AS
+BEGIN
+  -- Function body here
+  RETURN --scalar_expression
+END
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

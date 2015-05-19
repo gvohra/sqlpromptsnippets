@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>smf</Title>
+      <Shortcut>smf</Shortcut>
+      <Description>SELECT SUM($) FROM (GV)</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[SELECT SUM($CURSOR$) FROM ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>num</Title>
+      <Shortcut>num</Shortcut>
+      <Description>Format a big number into a readable format (Gaurav Vohra contribution)</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[FORMAT($CURSOR$,'#,##0')]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

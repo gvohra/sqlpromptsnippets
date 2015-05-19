@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>uci</Title>
+      <Shortcut>uci</Shortcut>
+      <Description>Unique Clustered Index (Gaurav Vohra contribution)</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[UNIQUE CLUSTERED INDEX uci ON ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

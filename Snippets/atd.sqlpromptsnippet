@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>atd</Title>
+      <Shortcut>atd</Shortcut>
+      <Description>Drop column.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[ALTER TABLE $CURSOR$ DROP COLUMN]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

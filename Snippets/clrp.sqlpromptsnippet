@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>clrp</Title>
+      <Shortcut>clrp</Shortcut>
+      <Description>Create a CLR stored procedure.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[--SET QUOTED_IDENTIFIER ON|OFF
+--SET ANSI_NULLS ON|OFF
+
+CREATE PROCEDURE $CURSOR$
+(
+	--@parameter_name AS scalar_data_type ( = default_value ), ...
+)
+-- WITH EXECUTE AS CALLER|SELF|OWNER| 'user_name'
+AS EXTERNAL NAME -- assembly_name.class_name.static_method_name
+GO
+
+--SET QUOTED_IDENTIFIER ON|OFF
+--SET ANSI_NULLS ON|OFF]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

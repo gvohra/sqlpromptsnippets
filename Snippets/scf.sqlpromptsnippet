@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>scf</Title>
+      <Shortcut>scf</Shortcut>
+      <Description>Count number of records returned by query, formatted nicely (Gaurav Vohra contribution)</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[SELECT FORMAT(COUNT(*),'#,##0') FROM ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

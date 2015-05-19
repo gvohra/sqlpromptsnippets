@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>be</Title>
+      <Shortcut>be</Shortcut>
+      <Description>Inserts BEGIN..END block.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[BEGIN
+	$CURSOR$
+END]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
