@@ -8,10 +8,10 @@
 ### How do I get set up? ###
 
 * Install Red Gate SQL Prompt. It works in SQL Server Management Studio (SSMS), and SQL Server Development Tools in Visual Studio (SSDT)
-* Clone this Repo to the following directory: C:\Users\[first.last]\AppData\Local\Red Gate\SQL Prompt 6\Snippets
+* Clone this Repo to the following directory: "%LOCALAPPDATA%\Red Gate\SQL Prompt 6\Snippets"
+* You can manage snippets via the SQL Prompt Snippet Manager
 
 ### Contribution guidelines ###
 
-* Submit your own .sqlpromptsnippet files as a pull request
-* Check whether something already exists similar to what you are about to upload
-* Feel free to ask about and challenge the usefulness of a snippet - and improve things
+* Fork this repo for your private teams
+* Submit .sqlpromptsnippet contributions as Pull Requests
