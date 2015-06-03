@@ -12,7 +12,7 @@
     </Header>
     <Snippet>
       <Declarations />
-      <Code Language="sql"><![CDATA[SELECT SUM($CURSOR$) FROM ]]></Code>
+      <Code Language="sql"><![CDATA[SELECT FORMAT(SUM($CURSOR$),'#,##0') FROM ]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
