@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>header</Title>
+      <Shortcut>header</Shortcut>
+      <Description>Template header for stored procedure (Gaurav Vohra contribution)</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[--============================================================================================================
+--
+--  Purpose     :       Builds $CURSOR$
+--
+--                      More description as required
+--
+--  Source      :       <tables>
+--
+--============================================================================================================]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
