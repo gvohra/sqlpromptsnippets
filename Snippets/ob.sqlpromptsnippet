@@ -4,7 +4,7 @@
     <Header>
       <Title>ob</Title>
       <Shortcut>ob</Shortcut>
-      <Description>ORDER BY (Gaurav Vohra contribution)</Description>
+      <Description>ORDER BY</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

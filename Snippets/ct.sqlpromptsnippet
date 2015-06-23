@@ -4,7 +4,7 @@
     <Header>
       <Title>ct</Title>
       <Shortcut>ct</Shortcut>
-      <Description>Create a table.</Description>
+      <Description>Create a table</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

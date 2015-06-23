@@ -4,7 +4,7 @@
     <Header>
       <Title>du</Title>
       <Shortcut>du</Shortcut>
-      <Description>Drop a user.</Description>
+      <Description>Drop a user</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

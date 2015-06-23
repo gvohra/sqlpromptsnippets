@@ -4,7 +4,7 @@
     <Header>
       <Title>cv</Title>
       <Shortcut>cv</Shortcut>
-      <Description>Create a view.</Description>
+      <Description>Create a view</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

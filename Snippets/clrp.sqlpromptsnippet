@@ -4,7 +4,7 @@
     <Header>
       <Title>clrp</Title>
       <Shortcut>clrp</Shortcut>
-      <Description>Create a CLR stored procedure.</Description>
+      <Description>Create a CLR stored procedure</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

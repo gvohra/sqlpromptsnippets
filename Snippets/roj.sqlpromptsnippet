@@ -4,7 +4,7 @@
     <Header>
       <Title>roj</Title>
       <Shortcut>roj</Shortcut>
-      <Description>RIGHT OUTER JOIN fragment.</Description>
+      <Description>RIGHT OUTER JOIN fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

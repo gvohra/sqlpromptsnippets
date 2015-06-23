@@ -4,7 +4,7 @@
     <Header>
       <Title>cdbsnap</Title>
       <Shortcut>cdbsnap</Shortcut>
-      <Description>Create a database snapshot.</Description>
+      <Description>Create a database snapshot</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

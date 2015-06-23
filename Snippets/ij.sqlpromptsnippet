@@ -4,7 +4,7 @@
     <Header>
       <Title>ij</Title>
       <Shortcut>ij</Shortcut>
-      <Description>INNER JOIN fragment.</Description>
+      <Description>INNER JOIN fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

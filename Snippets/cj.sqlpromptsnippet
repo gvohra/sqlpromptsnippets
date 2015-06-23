@@ -4,7 +4,7 @@
     <Header>
       <Title>cj</Title>
       <Shortcut>cj</Shortcut>
-      <Description>CROSS JOIN fragment.</Description>
+      <Description>CROSS JOIN fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

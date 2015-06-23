@@ -4,7 +4,7 @@
     <Header>
       <Title>inn</Title>
       <Shortcut>inn</Shortcut>
-      <Description>Is Not Null (Gaurav Vohra contribution)</Description>
+      <Description>Is Not Null</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

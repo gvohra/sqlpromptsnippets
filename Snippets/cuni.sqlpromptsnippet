@@ -4,7 +4,7 @@
     <Header>
       <Title>cuni</Title>
       <Shortcut>cuni</Shortcut>
-      <Description>Create unique nonclustered index.</Description>
+      <Description>Create unique nonclustered index</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

@@ -4,7 +4,7 @@
     <Header>
       <Title>loj</Title>
       <Shortcut>loj</Shortcut>
-      <Description>LEFT OUTER JOIN fragment.</Description>
+      <Description>LEFT OUTER JOIN fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

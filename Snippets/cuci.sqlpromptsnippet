@@ -4,7 +4,7 @@
     <Header>
       <Title>cuci</Title>
       <Shortcut>cuci</Shortcut>
-      <Description>Create unique clustered index.</Description>
+      <Description>Create unique clustered index</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

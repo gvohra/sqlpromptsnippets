@@ -4,7 +4,7 @@
     <Header>
       <Title>w2</Title>
       <Shortcut>w2</Shortcut>
-      <Description>Execute sp_who2. Contributed by Mark Yuabov, Shelton, Connecticut, United States.</Description>
+      <Description>Execute sp_who2</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

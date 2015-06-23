@@ -4,7 +4,7 @@
     <Header>
       <Title>linn</Title>
       <Shortcut>linn</Shortcut>
-      <Description>Double line comment in between (Gaurav Vohra contribution)</Description>
+      <Description>Double line with space for text comment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

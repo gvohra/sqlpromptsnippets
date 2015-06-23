@@ -4,7 +4,7 @@
     <Header>
       <Title>sph</Title>
       <Shortcut>sph</Shortcut>
-      <Description>Execute sp_help. Contributed by Mark Yuabov, Shelton, Connecticut, United States.</Description>
+      <Description>Execute sp_help</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

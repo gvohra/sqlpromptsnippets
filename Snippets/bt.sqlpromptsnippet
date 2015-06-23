@@ -4,7 +4,7 @@
     <Header>
       <Title>bt</Title>
       <Shortcut>bt</Shortcut>
-      <Description>Begin transaction. Contributed by Dinesh Asanka, Colombo, Sri Lanka.</Description>
+      <Description>Begin transaction</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

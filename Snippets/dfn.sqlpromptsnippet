@@ -4,7 +4,7 @@
     <Header>
       <Title>dfn</Title>
       <Shortcut>dfn</Shortcut>
-      <Description>Drop a function.</Description>
+      <Description>Drop a function</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

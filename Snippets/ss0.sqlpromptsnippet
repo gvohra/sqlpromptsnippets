@@ -4,7 +4,7 @@
     <Header>
       <Title>ss0</Title>
       <Shortcut>ss0</Shortcut>
-      <Description>SELECT TOP 0 * FROM (Gaurav Vohra contribution)</Description>
+      <Description>SELECT TOP 0 * FROM</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

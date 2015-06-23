@@ -4,7 +4,7 @@
     <Header>
       <Title>atdt</Title>
       <Shortcut>atdt</Shortcut>
-      <Description>Disable trigger.</Description>
+      <Description>Disable trigger</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

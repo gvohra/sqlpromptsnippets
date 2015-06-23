@@ -4,7 +4,7 @@
     <Header>
       <Title>cu</Title>
       <Shortcut>cu</Shortcut>
-      <Description>Create a database user.</Description>
+      <Description>Create a database user</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

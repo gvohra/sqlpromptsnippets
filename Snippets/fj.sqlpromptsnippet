@@ -4,7 +4,7 @@
     <Header>
       <Title>fj</Title>
       <Shortcut>fj</Shortcut>
-      <Description>FULL JOIN fragment.</Description>
+      <Description>FULL JOIN fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

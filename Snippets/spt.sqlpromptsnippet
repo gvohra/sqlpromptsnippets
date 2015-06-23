@@ -4,7 +4,7 @@
     <Header>
       <Title>spt</Title>
       <Shortcut>spt</Shortcut>
-      <Description>Execute sp_helptext. Contributed by Mark Yuabov, Shelton, Connecticut, United States.</Description>
+      <Description>Execute sp_helptext</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

@@ -4,7 +4,7 @@
     <Header>
       <Title>df</Title>
       <Shortcut>df</Shortcut>
-      <Description>DELETE FROM fragment.</Description>
+      <Description>DELETE FROM fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

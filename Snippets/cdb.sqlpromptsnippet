@@ -4,7 +4,7 @@
     <Header>
       <Title>cdb</Title>
       <Shortcut>cdb</Shortcut>
-      <Description>CREATE DATABASE statement.</Description>
+      <Description>CREATE DATABASE statement</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

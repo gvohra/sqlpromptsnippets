@@ -4,7 +4,7 @@
     <Header>
       <Title>ctf</Title>
       <Shortcut>ctf</Shortcut>
-      <Description>Create multi-statement table-valued function.</Description>
+      <Description>Create multi-statement table-valued function</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

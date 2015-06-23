@@ -4,7 +4,7 @@
     <Header>
       <Title>citf</Title>
       <Shortcut>citf</Shortcut>
-      <Description>Create inline table-valued function.</Description>
+      <Description>Create inline table-valued function</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

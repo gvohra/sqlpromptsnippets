@@ -4,7 +4,7 @@
     <Header>
       <Title>dd</Title>
       <Shortcut>dd</Shortcut>
-      <Description>Drop a database.</Description>
+      <Description>Drop a database</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

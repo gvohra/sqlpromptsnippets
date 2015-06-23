@@ -4,7 +4,7 @@
     <Header>
       <Title>ii</Title>
       <Shortcut>ii</Shortcut>
-      <Description>INSERT INTO fragment.</Description>
+      <Description>INSERT INTO fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

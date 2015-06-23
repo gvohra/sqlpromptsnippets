@@ -4,7 +4,7 @@
     <Header>
       <Title>xpfd</Title>
       <Shortcut>xpfd</Shortcut>
-      <Description>Retrieve free space on all fixed drives. Contributed by Alan Wood, Revelator IT Ltd, Edinburgh, Scotland.</Description>
+      <Description>Retrieve free space on all fixed drives</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

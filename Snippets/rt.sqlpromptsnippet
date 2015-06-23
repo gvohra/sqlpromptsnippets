@@ -4,7 +4,7 @@
     <Header>
       <Title>rt</Title>
       <Shortcut>rt</Shortcut>
-      <Description>Rollback transaction.</Description>
+      <Description>Rollback transaction</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

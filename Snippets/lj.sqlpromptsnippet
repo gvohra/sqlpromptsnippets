@@ -4,7 +4,7 @@
     <Header>
       <Title>lj</Title>
       <Shortcut>lj</Shortcut>
-      <Description>LEFT JOIN (Gaurav Vohra)</Description>
+      <Description>LEFT JOIN</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

@@ -4,7 +4,7 @@
     <Header>
       <Title>lin</Title>
       <Shortcut>lin</Shortcut>
-      <Description>Line (Gaurav Vohra contribution)</Description>
+      <Description>Line</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

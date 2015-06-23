@@ -4,7 +4,7 @@
     <Header>
       <Title>wt</Title>
       <Shortcut>wt</Shortcut>
-      <Description>WITH (TABLOCK) (Gaurav Vohra contribution)</Description>
+      <Description>WITH (TABLOCK)</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

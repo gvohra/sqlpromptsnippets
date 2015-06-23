@@ -4,7 +4,7 @@
     <Header>
       <Title>sqi</Title>
       <Shortcut>sqi</Shortcut>
-      <Description>Change the current QUOTED_IDENTIFIER setting.</Description>
+      <Description>Change the current QUOTED_IDENTIFIER setting</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

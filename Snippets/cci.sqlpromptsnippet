@@ -4,7 +4,7 @@
     <Header>
       <Title>cci</Title>
       <Shortcut>cci</Shortcut>
-      <Description>Create non-unique clustered index.</Description>
+      <Description>Create non-unique clustered index</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

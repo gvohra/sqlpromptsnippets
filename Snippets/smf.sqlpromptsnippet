@@ -4,7 +4,7 @@
     <Header>
       <Title>smf</Title>
       <Shortcut>smf</Shortcut>
-      <Description>SELECT SUM($) FROM (GV)</Description>
+      <Description>SELECT SUM() FROM</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

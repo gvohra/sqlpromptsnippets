@@ -4,7 +4,7 @@
     <Header>
       <Title>be</Title>
       <Shortcut>be</Shortcut>
-      <Description>Inserts BEGIN..END block.</Description>
+      <Description>Inserts BEGIN..END block</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

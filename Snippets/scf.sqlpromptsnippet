@@ -4,7 +4,7 @@
     <Header>
       <Title>scf</Title>
       <Shortcut>scf</Shortcut>
-      <Description>Count number of records returned by query, formatted nicely (Gaurav Vohra contribution)</Description>
+      <Description>Count number of records returned by query, formatted nicely</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

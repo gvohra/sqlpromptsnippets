@@ -4,7 +4,7 @@
     <Header>
       <Title>foj</Title>
       <Shortcut>foj</Shortcut>
-      <Description>FULL OUTER JOIN fragment.</Description>
+      <Description>FULL OUTER JOIN fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

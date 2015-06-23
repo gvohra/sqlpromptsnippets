@@ -4,7 +4,7 @@
     <Header>
       <Title>dl</Title>
       <Shortcut>dl</Shortcut>
-      <Description>Drop a login.</Description>
+      <Description>Drop a login</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

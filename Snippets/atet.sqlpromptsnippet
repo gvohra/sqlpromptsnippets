@@ -4,7 +4,7 @@
     <Header>
       <Title>atet</Title>
       <Shortcut>atet</Shortcut>
-      <Description>Enable trigger.</Description>
+      <Description>Enable trigger</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

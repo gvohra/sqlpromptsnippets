@@ -4,7 +4,7 @@
     <Header>
       <Title>yell</Title>
       <Shortcut>yell</Shortcut>
-      <Description>Vent your frustration.</Description>
+      <Description>Vent your frustration</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

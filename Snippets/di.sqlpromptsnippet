@@ -4,7 +4,7 @@
     <Header>
       <Title>di</Title>
       <Shortcut>di</Shortcut>
-      <Description>Drop an index.</Description>
+      <Description>Drop an index</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

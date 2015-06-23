@@ -4,7 +4,7 @@
     <Header>
       <Title>numc</Title>
       <Shortcut>numc</Shortcut>
-      <Description>Nicely formatted COUNT(*) as numRows (Gaurav Vohra contribution)</Description>
+      <Description>Nicely formatted COUNT(*) as numRows</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

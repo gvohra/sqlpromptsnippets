@@ -4,7 +4,7 @@
     <Header>
       <Title>dv</Title>
       <Shortcut>dv</Shortcut>
-      <Description>Drop a view.</Description>
+      <Description>Drop a view</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

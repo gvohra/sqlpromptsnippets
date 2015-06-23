@@ -4,7 +4,7 @@
     <Header>
       <Title>today</Title>
       <Shortcut>today</Shortcut>
-      <Description>CAST(GETDATE() as date) (Gaurav Vohra contribution)</Description>
+      <Description>CAST(GETDATE() as date)</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

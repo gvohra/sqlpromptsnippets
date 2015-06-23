@@ -4,7 +4,7 @@
     <Header>
       <Title>gb</Title>
       <Shortcut>gb</Shortcut>
-      <Description>GROUP BY (Gaurav Vohra contribution)</Description>
+      <Description>GROUP BY</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

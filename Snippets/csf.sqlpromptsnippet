@@ -4,7 +4,7 @@
     <Header>
       <Title>csf</Title>
       <Shortcut>csf</Shortcut>
-      <Description>Create scalar function.</Description>
+      <Description>Create scalar function</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

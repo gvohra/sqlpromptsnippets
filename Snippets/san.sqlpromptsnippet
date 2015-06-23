@@ -4,7 +4,7 @@
     <Header>
       <Title>san</Title>
       <Shortcut>san</Shortcut>
-      <Description>Change the current ANSI_NULLS setting.</Description>
+      <Description>Change the current ANSI_NULLS setting</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

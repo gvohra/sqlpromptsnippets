@@ -4,7 +4,7 @@
     <Header>
       <Title>cp</Title>
       <Shortcut>cp</Shortcut>
-      <Description>Create a stored procedure.</Description>
+      <Description>Create a stored procedure</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

@@ -4,7 +4,7 @@
     <Header>
       <Title>lk</Title>
       <Shortcut>lk</Shortcut>
-      <Description>like '% %' (Gaurav Vohra contribution)</Description>
+      <Description>like '% %'</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

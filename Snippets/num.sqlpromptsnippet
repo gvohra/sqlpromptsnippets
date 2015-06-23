@@ -4,7 +4,7 @@
     <Header>
       <Title>num</Title>
       <Shortcut>num</Shortcut>
-      <Description>Format a big number into a readable format (Gaurav Vohra contribution)</Description>
+      <Description>Format a big number into a readable format</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

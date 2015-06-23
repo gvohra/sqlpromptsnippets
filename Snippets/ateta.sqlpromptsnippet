@@ -4,7 +4,7 @@
     <Header>
       <Title>ateta</Title>
       <Shortcut>ateta</Shortcut>
-      <Description>Enable all triggers on table.</Description>
+      <Description>Enable all triggers on table</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

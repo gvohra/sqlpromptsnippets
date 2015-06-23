@@ -4,7 +4,7 @@
     <Header>
       <Title>ssf</Title>
       <Shortcut>ssf</Shortcut>
-      <Description>SELECT * FROM fragment.</Description>
+      <Description>SELECT * FROM fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

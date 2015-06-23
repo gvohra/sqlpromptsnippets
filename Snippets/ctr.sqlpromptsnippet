@@ -4,7 +4,7 @@
     <Header>
       <Title>ctr</Title>
       <Shortcut>ctr</Shortcut>
-      <Description>Commit transaction. Contributed by Dinesh Asanka, Colombo, Sri Lanka.</Description>
+      <Description>Commit transaction</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

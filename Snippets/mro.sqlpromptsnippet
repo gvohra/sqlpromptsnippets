@@ -4,7 +4,7 @@
     <Header>
       <Title>mro</Title>
       <Shortcut>mro</Shortcut>
-      <Description>Retrieves information about 20 most recently created objects from database. Contributed by Jerry J. Deroo, The OSI Group, Newmarket, Ontario, Canada.</Description>
+      <Description>Retrieves information about 20 most recently created objects from database</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

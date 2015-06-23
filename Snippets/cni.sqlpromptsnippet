@@ -4,7 +4,7 @@
     <Header>
       <Title>cni</Title>
       <Shortcut>cni</Shortcut>
-      <Description>Create non-unique nonclustered index.</Description>
+      <Description>Create non-unique nonclustered index</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

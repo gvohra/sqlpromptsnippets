@@ -4,7 +4,7 @@
     <Header>
       <Title>uci</Title>
       <Shortcut>uci</Shortcut>
-      <Description>Unique Clustered Index (Gaurav Vohra contribution)</Description>
+      <Description>Unique Clustered Index</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

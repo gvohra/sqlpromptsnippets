@@ -4,7 +4,7 @@
     <Header>
       <Title>atdc</Title>
       <Shortcut>atdc</Shortcut>
-      <Description>Drop constraint.</Description>
+      <Description>Drop constraint</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

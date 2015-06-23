@@ -4,7 +4,7 @@
     <Header>
       <Title>wdc</Title>
       <Shortcut>wdc</Shortcut>
-      <Description>WITH (DATA_COMPRESSION = PAGE) (Gaurav Vohra contribution)</Description>
+      <Description>WITH (DATA_COMPRESSION = PAGE)</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

@@ -4,7 +4,7 @@
     <Header>
       <Title>dp</Title>
       <Shortcut>dp</Shortcut>
-      <Description>Drop a stored procedure.</Description>
+      <Description>Drop a stored procedure</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

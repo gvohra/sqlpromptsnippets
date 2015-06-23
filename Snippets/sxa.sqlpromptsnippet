@@ -4,7 +4,7 @@
     <Header>
       <Title>sxa</Title>
       <Shortcut>sxa</Shortcut>
-      <Description>Change the current XACT_ABORT setting.</Description>
+      <Description>Change the current XACT_ABORT setting</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

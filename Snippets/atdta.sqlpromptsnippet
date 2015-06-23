@@ -4,7 +4,7 @@
     <Header>
       <Title>atdta</Title>
       <Shortcut>atdta</Shortcut>
-      <Description>Disable all triggers on table.</Description>
+      <Description>Disable all triggers on table</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

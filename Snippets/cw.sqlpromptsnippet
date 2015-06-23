@@ -4,7 +4,7 @@
     <Header>
       <Title>cw</Title>
       <Shortcut>cw</Shortcut>
-      <Description>Case When (Gaurav Vohra contribution)</Description>
+      <Description>CASE WHEN</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

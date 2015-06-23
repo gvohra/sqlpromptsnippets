@@ -4,7 +4,7 @@
     <Header>
       <Title>is</Title>
       <Shortcut>is</Shortcut>
-      <Description>Shortcut for INFORMATION_SCHEMA.</Description>
+      <Description>Shortcut for INFORMATION_SCHEMA</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

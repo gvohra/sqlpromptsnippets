@@ -4,7 +4,7 @@
     <Header>
       <Title>sst</Title>
       <Shortcut>sst</Shortcut>
-      <Description>SELECT TOP 1000 * FROM (Gaurav Vohra contribution)</Description>
+      <Description>SELECT TOP 1000 * FROM</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>

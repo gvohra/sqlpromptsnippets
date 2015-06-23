@@ -4,7 +4,7 @@
     <Header>
       <Title>atac</Title>
       <Shortcut>atac</Shortcut>
-      <Description>Modify column.</Description>
+      <Description>Modify column</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
