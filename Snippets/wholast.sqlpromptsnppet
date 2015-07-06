@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>wholast</Title>
+      <Shortcut>wholast</Shortcut>
+      <Description>Who Was the last to Update an object</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[DECLARE @filename VARCHAR(255); 
+SELECT  @filename = SUBSTRING(path, 0, LEN(path) - CHARINDEX('\', REVERSE(path)) + 1) + '\Log.trc'
+FROM    sys.traces
+WHERE   is_default = 1;  
+
+SELECT  gt.HostName
+      , gt.ApplicationName
+      , gt.NTUserName
+      , gt.NTDomainName
+      , gt.LoginName
+      , gt.SPID
+      , gt.EventClass
+      , te.name AS EventName
+      , gt.EventSubClass
+      , gt.TextData
+      , gt.StartTime
+      , gt.EndTime
+      , gt.ObjectName
+      , gt.DatabaseName
+      , gt.FileName
+      , gt.IsSystem
+FROM    sys.fn_trace_gettable(@filename, DEFAULT) gt
+        JOIN sys.trace_events te ON gt.EventClass = te.trace_event_id
+WHERE   gt.EventClass IN (164)
+        AND gt.ObjectName = '$CURSOR$'
+ORDER BY gt.StartTime DESC;
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
