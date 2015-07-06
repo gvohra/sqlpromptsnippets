@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-16"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>find</Title>
+      <Shortcut>find</Shortcut>
+      <Description>Find all procedures, functions, and/or triggers containing text . . .</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[SELECT DISTINCT
+        o.name AS Object_Name, o.type_desc, o.create_date, o.modify_date
+FROM    sys.sql_modules m
+        INNER JOIN sys.objects o ON m.object_id = o.object_id
+WHERE   m.definition LIKE '%$CURSOR$%' ESCAPE '\']]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
