@@ -1,0 +1,13 @@
+    SELECT  r.session_id as spid, command, start_time, percent_complete,
+            CASE WHEN  (DATEDIFF(s, start_time, GetDate()) < 3600)           THEN '' ELSE CAST(((DATEDIFF(s, start_time, GetDate())) / 3600)       as varchar) + ' hour' + CASE WHEN (((DATEDIFF(s, start_time, GetDate())) / 3600) = 1) THEN '' ELSE '(s)' END + ' ' END + 
+            CASE WHEN ((DATEDIFF(s, start_time, GetDate()) % 3600) / 60 = 0) THEN '' ELSE CAST(((DATEDIFF(s, start_time, GetDate())  % 3600) / 60) as varchar) + ' min '   END +
+            CASE WHEN ((DATEDIFF(s, start_time, GetDate()) % 60)        = 0) THEN '' ELSE CAST(((DATEDIFF(s, start_time, GetDate())  %   60))      as varchar) + ' sec'    END as running_time,
+            CASE WHEN  (estimated_completion_time < 3600000)                 THEN '' ELSE CAST((estimated_completion_time / 3600000)               as varchar) + ' hour' + CASE WHEN ((estimated_completion_time / 3600000) = 1) THEN '' ELSE '(s)' END + ' ' END +
+            CASE WHEN ((estimated_completion_time % 3600000) / 60000 = 0)    THEN '' ELSE CAST((estimated_completion_time % 3600000) / 60000       as varchar) + ' min '   END +
+            CASE WHEN ((estimated_completion_time %   60000) /  1000 = 0)    THEN '' ELSE CAST((estimated_completion_time %   60000) /  1000       as varchar) + ' sec'    END as est_time_to_go,
+            dateadd(second,estimated_completion_time/1000, getdate()) as est_completion_time,
+            s.text
+      FROM  sys.dm_exec_requests r
+     CROSS
+     APPLY  sys.dm_exec_sql_text(r.sql_handle) s
+     WHERE (r.command in ('RESTORE DATABASE', 'BACKUP DATABASE', 'RESTORE LOG', 'BACKUP LOG'));
