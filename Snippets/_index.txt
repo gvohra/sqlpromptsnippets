@@ -1,0 +1,98 @@
+GitHUb /sqlpromptsnippets File Index
+
+
+File Update History
+
+Rev. Date   Revised By    Comments
+----------- ------------- -------------------------------------------------------------
+06/JUL/2015 eichmat       Created file index
+
+
+
+File    Description
+------- -------------------------------------------------------------------------------
+ac	ALTER COLUMN
+af	ALTER FUNCTION
+ap	ALTER PROCEDURE
+at	ALTER TABLE
+ata	Add column
+atac	Modify column 
+atd	Drop column
+atdc	Drop constraint
+atdt	Disable a trigger on table
+atdta	Disable all triggers on table
+atet	Enable a trigger on table 
+ateta	Enable all triggers on table
+be	BEGIN...END
+bt	BEGIN TRANSACTION
+ccc	CREATE CELL CALCULATION fragment
+cci	Create non-unique clustered index
+cdb	CREATE DATABASE
+cdbsnap	Create a database snapshot
+citf	Create inline table-valued function
+cj	CROSS JOIN fragment
+cl	Create a new SQL Server login
+clrp	Create a CLR stored procedure
+cni	Create non-unique nonclustered index
+cp	Create a stored procedure
+csf	Create scalar function
+ct	Create a table
+ctf	Create table-valued function
+ctr	Commit transaction
+cu	Create a database user
+cuci	Create unique clustered index
+cuni	Create unique nonclustered index
+curff	Boilerplate code for fast-forward read-only cursor
+cv	Create a view
+cw	CASE WHEN
+dd	Drop a database
+df	DELETE FROM fragment
+dfn	Drop a function
+di	Drop an index
+dl	Drop a login
+dp	Drop a stored procedure
+dt	Drop a table
+du	Drop a user
+dv	Drop a view
+err	Inserts @@ERROR function call
+fj	FULL JOIN fragment
+foj	FULL OUTER JOIN fragment
+gb	GROUP BY
+header	Template header for stored procedure
+ii	INSERT INTO fragment
+ij	INNER JOIN fragment
+inn	IS NOT NULL fragment
+is	Shortcut for INFORMATION_SCHEMA
+isc	Column Information Grabber
+lin	Line
+linn	Double line with space for text comment
+lj	LEFT JOIN
+lk	LIKE '% %' fragment
+loj	LEFT OUTER JOIN fragment
+mro	Retrieves information about 20 most recently created objects from database
+num	Format a big number into a readable format
+numc	Nicely formatted COUNT(*) as numRows
+ob	ORDER BY
+rj	RIGHT JOIN fragment
+roj	RIGHT OUTER JOIN fragment
+rt	Rollback transaction
+san	Change the current ANSI_NULLS setting
+scf	Count number of records returned by query, formatted nicely
+sd	SELECT DISTINCT
+setvar	SQL CMD setvar fragment
+smf	SELECT SUM() FROM
+sph	Execute sp_help
+spt	Execute sp_helptext
+sqi	Change the current QUOTED_IDENTIFIER setting
+ss0	SELECT TOP 0 * FROM
+ssf	SELECT * FROM fragment
+sst	SELECT TOP 1000 * FROM
+sxa	Change the current XACT_ABORT setting
+today	CAST(GETDATE() as date) fragment
+uci	Unique Clustered Index
+w2	Execute sp_who2
+wdc	WITH (DATA_COMPRESSION = PAGE) fragment
+wt	WITH (TABLOCK) fragment
+xpfd	Retrieve free space on all fixed drives
+yell	Vent your frustration
+
