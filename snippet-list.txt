@@ -28,6 +28,7 @@ cni     Create non-unique nonclustered index
 cp      Create a stored procedure
 csf     Create scalar function
 ct      Create a table
+cte     Create a new common table expression
 ctf     Create table-valued function
 ctr     Commit transaction
 cu      Create a database user
@@ -65,6 +66,7 @@ num     Format a big number into a readable format
 numc    Nicely formatted COUNT(*) as numRows
 ob      ORDER BY
 rj      RIGHT JOIN fragment
+rnum    ROW_NUMBER() OVER () fragment
 roj     RIGHT OUTER JOIN fragment
 rt      Rollback transaction
 san     Change the current ANSI_NULLS setting

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cte</Title>
+      <Shortcut>cte</Shortcut>
+      <Description>New common table expression</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[WITH <ctename,sysname,MyAlias> (<columnList,varchar(max),SomeColumn>) AS 
+(
+    $SELECTIONSTART$SELECT 1 AS SomeColumn -- FROM SomeWhere$SELECTIONEND$
+)
+SELECT <columnList,varchar(max),SomeColumn> FROM <ctename,sysname,MyAlias>
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
