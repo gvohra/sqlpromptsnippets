@@ -4,7 +4,7 @@
     <Header>
       <Title>rnum</Title>
       <Shortcut>rnum</Shortcut>
-      <Description>ROW_NUMBER() fragment</Description>
+      <Description>ROW_NUMBER() OVER () fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
