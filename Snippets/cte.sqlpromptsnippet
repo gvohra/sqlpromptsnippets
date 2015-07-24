@@ -12,12 +12,14 @@
     </Header>
     <Snippet>
       <Declarations />
-      <Code Language="sql"><![CDATA[WITH <ctename,sysname,MyAlias> (<columnList,varchar(max),SomeColumn>) AS 
-(
-    $SELECTIONSTART$SELECT 1 AS SomeColumn -- FROM SomeWhere$SELECTIONEND$
-)
-SELECT <columnList,varchar(max),SomeColumn> FROM <ctename,sysname,MyAlias>
-]]></Code>
+      <Code Language="sql"><![CDATA[WITH cteName
+    AS (
+        $SELECTIONSTART$SELECT col1
+        FROM someTable$SELECTIONEND$
+    )
+
+SELECT *
+FROM cteName]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
