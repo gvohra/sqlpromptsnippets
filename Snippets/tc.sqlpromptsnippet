@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>tc</Title>
+      <Shortcut>tc</Shortcut>
+      <Description>TRY ... CATCH fragment</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[BEGIN TRY
+    $SELECTEDTEXT$
+END TRY
+BEGIN CATCH
+    $CURSOR$
+END CATCH]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

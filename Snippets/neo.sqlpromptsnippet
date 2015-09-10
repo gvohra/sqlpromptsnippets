@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>neo</Title>
+      <Shortcut>neo</Shortcut>
+      <Description>A word from one of our sponsors</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[-- I know Kung-Fu.]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
