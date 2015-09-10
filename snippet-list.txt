@@ -51,8 +51,10 @@ fj      FULL JOIN fragment
 foj     FULL OUTER JOIN fragment
 gb      GROUP BY
 header  Template header for stored procedure
+ifs     IF fragment
 ii      INSERT INTO fragment
 ij      INNER JOIN fragment
+j       JOIN fragment
 inn     IS NOT NULL fragment
 is      Shortcut for INFORMATION_SCHEMA
 isc     Column Information Grabber
@@ -62,6 +64,7 @@ lj      LEFT JOIN
 lk      LIKE '% %' fragment
 loj     LEFT OUTER JOIN fragment
 mro     Retrieves information about 20 most recently created objects from database
+neo     A word from one of our sponsors
 num     Format a big number into a readable format
 numc    Nicely formatted COUNT(*) as numRows
 ob      ORDER BY
@@ -80,7 +83,9 @@ sqi     Change the current QUOTED_IDENTIFIER setting
 ss0     SELECT TOP 0 * FROM
 ssf     SELECT * FROM fragment
 sst     SELECT TOP 1000 * FROM
+st100   SELECT top 100 rows
 sxa     Change the current XACT_ABORT setting
+tc      TRY ... CATCH fragment
 today   CAST(GETDATE() as date) fragment
 uci     Unique Clustered Index
 w2      Execute sp_who2
