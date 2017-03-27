@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>hhmm</Title>
+      <Shortcut>hhmm</Shortcut>
+      <Description>HH:mm format</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>date_column</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[LEFT(CONVERT(VARCHAR(8), $date_column$, 108),5) as HHMM]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
