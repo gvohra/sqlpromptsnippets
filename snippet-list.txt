@@ -31,6 +31,7 @@ ct      Create a table
 cte     Create a new common table expression
 ctf     Create table-valued function
 ctr     Commit transaction
+ctt     Create temp table (drops if exists)
 cu      Create a database user
 cuci    Create unique clustered index
 cuni    Create unique nonclustered index
@@ -58,6 +59,8 @@ j       JOIN fragment
 inn     IS NOT NULL fragment
 is      Shortcut for INFORMATION_SCHEMA
 isc     Column Information Grabber
+isns    Wraps the currently selected column (text) in an ISNULL Function, with a default empty string (this is an inline selected text function)
+isnn    Wraps the currently selected column (number) in an ISNULL Function, with a default to zero (this is an inline selected text function)
 lin     Line
 linn    Double line with space for text comment
 lj      LEFT JOIN
@@ -82,11 +85,14 @@ spt     Execute sp_helptext
 sqi     Change the current QUOTED_IDENTIFIER setting
 ss0     SELECT TOP 0 * FROM
 ssf     SELECT * FROM fragment
+ssf2    SELECT * FROM fragment, formatted nicely with tabs and newline.
 sst     SELECT TOP 1000 * FROM
 st100   SELECT top 100 rows
 sxa     Change the current XACT_ABORT setting
 tc      TRY ... CATCH fragment
 today   CAST(GETDATE() as date) fragment
+trim    Trim a string: LTRIM(RTRIM($CURSOR$))
+trims   Wrap selected text in LTRIM(RTRIM($SELECTEDTEXT$))
 uci     Unique Clustered Index
 w2      Execute sp_who2
 wdc     WITH (DATA_COMPRESSION = PAGE) fragment

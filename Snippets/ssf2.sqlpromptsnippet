@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ssf2</Title>
+      <Shortcut>ssf2</Shortcut>
+      <Description>SELECT * FROM fragment. Formatted nicely with tabs and new lines.</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[SELECT 	* 
+FROM  	$CURSOR$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

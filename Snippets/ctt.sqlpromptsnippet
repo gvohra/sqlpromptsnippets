@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>ctt</Title>
+      <Shortcut>ctt</Shortcut>
+      <Description>Create TEMP Table</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>table_name</ID>
+          <ToolTip />
+          <Default>tmpTable</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[IF (OBJECT_ID(N'tempdb..#$table_name$') IS NOT NULL) DROP TABLE #$table_name$ ;
+CREATE TABLE #$table_name$ ($CURSOR$);]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
