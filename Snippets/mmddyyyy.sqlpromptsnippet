@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>mmddyyyy</Title>
+      <Shortcut>mmddyyyy</Shortcut>
+      <Description>MM/DD/YYYY (101) Date Format</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>alias</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>column_name</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[CONVERT(VARCHAR(10), $column_name$, 101) AS $alias$]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
