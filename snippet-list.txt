@@ -52,6 +52,7 @@ fj      FULL JOIN fragment
 foj     FULL OUTER JOIN fragment
 gb      GROUP BY
 header  Template header for stored procedure
+hhmm    string to HH:mm format
 ifs     IF fragment
 ii      INSERT INTO fragment
 ij      INNER JOIN fragment
@@ -66,6 +67,8 @@ linn    Double line with space for text comment
 lj      LEFT JOIN
 lk      LIKE '% %' fragment
 loj     LEFT OUTER JOIN fragment
+mmddyyyy String to mmddyyyy format
+mmddyyyyhhmm String to mmddyyyyhhmm format
 mro     Retrieves information about 20 most recently created objects from database
 neo     A word from one of our sponsors
 num     Format a big number into a readable format
