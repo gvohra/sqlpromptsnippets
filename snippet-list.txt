@@ -60,6 +60,7 @@ inn     IS NOT NULL fragment
 is      Shortcut for INFORMATION_SCHEMA
 isc     Column Information Grabber
 isns    Wraps the currently selected column (text) in an ISNULL Function, with a default empty string (this is an inline selected text function)
+isnn    Wraps the currently selected column (number) in an ISNULL Function, with a default to zero (this is an inline selected text function)
 lin     Line
 linn    Double line with space for text comment
 lj      LEFT JOIN
@@ -91,7 +92,7 @@ sxa     Change the current XACT_ABORT setting
 tc      TRY ... CATCH fragment
 today   CAST(GETDATE() as date) fragment
 trim    Trim a string: LTRIM(RTRIM($CURSOR$))
-trim2   Wrap selected text in LTRIM(RTRIM($SELECTEDTEXT$))
+trims   Wrap selected text in LTRIM(RTRIM($SELECTEDTEXT$))
 uci     Unique Clustered Index
 w2      Execute sp_who2
 wdc     WITH (DATA_COMPRESSION = PAGE) fragment

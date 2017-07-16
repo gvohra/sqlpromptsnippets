@@ -2,8 +2,8 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>trim2</Title>
-      <Shortcut>trim2</Shortcut>
+      <Title>trims</Title>
+      <Shortcut>trims</Shortcut>
       <Description>Wrap selected text in LTRIM(RTRIM())</Description>
       <Author />
       <SnippetTypes>
