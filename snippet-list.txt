@@ -26,6 +26,7 @@ cl      Create a new SQL Server login
 clrp    Create a CLR stored procedure
 cni     Create non-unique nonclustered index
 cp      Create a stored procedure
+cseq	Create a sequence (start, end, optional: cycle, cache)
 csf     Create scalar function
 ct      Create a table
 cte     Create a new common table expression
@@ -44,13 +45,20 @@ dfn     Drop a function
 di      Drop an index
 dl      Drop a login
 dp      Drop a stored procedure
+dseq	Drop a sequence
 dt      Drop a table
 du      Drop a user
+dupk	Check for duplicated values on a column
 dv      Drop a view
 err     Inserts @@ERROR function call
 fj      FULL JOIN fragment
 foj     FULL OUTER JOIN fragment
 gb      GROUP BY
+gep		Grant Execute on procedures
+git		Grant Insert on table
+giust	Grant Insert, Select, Update on table
+gst		Grant Select on table
+gut		Grant Update on table
 header  Template header for stored procedure
 hhmm    string to HH:mm format
 ifs     IF fragment
@@ -73,6 +81,7 @@ mro     Retrieves information about 20 most recently created objects from databa
 neo     A word from one of our sponsors
 num     Format a big number into a readable format
 numc    Nicely formatted COUNT(*) as numRows
+nvseq	Next value for a sequence
 ob      ORDER BY
 rj      RIGHT JOIN fragment
 rnum    ROW_NUMBER() OVER () fragment

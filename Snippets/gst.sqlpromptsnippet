@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>gst</Title>
+      <Shortcut>gst</Shortcut>
+      <Description>Grant Select on Table</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>ObjectName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>RoleOrUser</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[GRANT SELECT ON $ObjectName$ TO $RoleOrUser$;]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

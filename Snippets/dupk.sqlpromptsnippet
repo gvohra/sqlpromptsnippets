@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>dupk</Title>
+      <Shortcut>dupk</Shortcut>
+      <Description>Check for n-uplicate values on a column</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>Column</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>SchemaName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>ObjectName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>Occurrences</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[SELECT
+	$Column$
+FROM
+	$SchemaName$.$ObjectName$
+GROUP BY
+	$Column$
+HAVING
+	COUNT(1) > $Occurrences$;]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
