@@ -1,12 +1,6 @@
-# StuffAndThings
+# Convert Redgate xml snippets to Azure Data Studio json snippet
 
-Collection of useful stuff and things
-
-## Convert Redgate xml snippets to Azure Data Studio json snippet
-
-Red Gate's SQL Prompt (<http://www.red-gate.com/products/sql-development/sql-prompt/>) is awesome, unfortunately at the moment there is no extension of the Prompt for Azure Data Studio, (there is no decent refactor extension either, the format document option is still green).
-
-It seemed a waste to not use all the nice snippets of the SQL Prompt in Azure Data Studio, so I wrote a little script that takes all the xml snippets, extracts the most important information (shortcut, description and code) and creates a single json file containing all the snippets.
+Script that takes all the xml snippets, extracts the most important information (shortcut, description and code) and creates a single json file containing all the snippets.
 
 Basic Usage:
 
