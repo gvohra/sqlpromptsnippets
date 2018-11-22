@@ -4,7 +4,7 @@ Script that takes all the xml snippets, extracts the most important information 
 
 Basic Usage:
 
-    C:\> RedgateSnippetsToJsonAzureDataStudio.ps1
+    C:\your\folder> RedgateSnippetsToJsonAzureDataStudio.ps1
 
 Additional parameters:
 
