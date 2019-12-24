@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cseq</Title>
+      <Shortcut>cseq</Shortcut>
+      <Description>Create Sequence starts with x increment by y cache and cicle</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>SchemaName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>SequenceName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>Start</ID>
+          <ToolTip />
+          <Default>1</Default>
+        </Literal>
+        <Literal>
+          <ID>End</ID>
+          <ToolTip />
+          <Default>2147483647</Default>
+        </Literal>
+        <Literal>
+          <ID>Cycle</ID>
+          <ToolTip />
+          <Default>CYCLE</Default>
+        </Literal>
+        <Literal>
+          <ID>Cache</ID>
+          <ToolTip />
+          <Default>CACHE</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[CREATE SEQUENCE $SchemaName$.$SequenceName$ 
+START WITH $Start$
+INCREMENT BY $End$
+$Cycle$
+$Cache$;]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>gep</Title>
+      <Shortcut>gep</Shortcut>
+      <Description>Grant Execute on Procedure</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>ProcedureName</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>RoleOrUser</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[GRANT EXECUTE ON $ProcedureName$ TO $RoleOrUser$;]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
